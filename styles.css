@@ -1,0 +1,36 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background:black;
+}
+
+div{
+	height: 33.33vh;
+}
+
+input[type=number]{
+	width: 100%;
+	height: 100%;
+	background:black;
+	color: white;
+	font-size: 10em;
+	text-align: center;
+	border: 0;
+	font-family: asap, sans-serif;
+	outline: none;
+}
+
+#fahrenheit{
+	border-top: 4px solid white;
+	border-bottom: 4px solid white;
+}
+
+
+/*pseudo element selector :: this will only work in Chrome */
+::placeholder { 
+	color: #222222;
+}
